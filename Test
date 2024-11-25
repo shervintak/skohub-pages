@@ -1,0 +1,47 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix w3i: <https://w3id.org/>.
+
+w3i:
+    a skos:ConceptScheme;
+    dct:description "My wonderful vocabulary."@en;
+    dct:title "Caricature Vocabulary"@en;
+    skos:hasTopConcept w3i:8e3e2, w3i:ab150 .
+w3i:218d0
+    a skos:Concept;
+    skos:broader w3i:d6fa1;
+    skos:inScheme w3i:;
+    skos:prefLabel "caricatures"@en.
+w3i:29fb3
+    a skos:Concept;
+    skos:broader w3i:ab150;
+    skos:inScheme w3i:;
+    skos:narrower w3i:d6fa1;
+    skos:prefLabel "visual works by form"@en.
+w3i:87702
+    a skos:Concept;
+    skos:broader w3i:97d7f;
+    skos:inScheme w3i:;
+    skos:prefLabel "cartoonist"@en.
+w3i:8e3e2
+    a skos:Concept;
+    skos:narrower w3i:97d7f;
+    skos:prefLabel "artists"@en;
+    skos:topConceptOf w3i: .
+w3i:97d7f
+    a skos:Concept;
+    skos:broader w3i:8e3e2;
+    skos:inScheme w3i:;
+    skos:narrower w3i:87702;
+    skos:prefLabel "artists by subject or style of work"@en.
+w3i:ab150
+    a skos:Concept;
+    skos:narrower w3i:29fb3;
+    skos:prefLabel "visual works"@en;
+    skos:topConceptOf w3i: .
+w3i:d6fa1
+    a skos:Concept;
+    skos:broader w3i:29fb3;
+    skos:inScheme w3i:;
+    skos:narrower w3i:218d0;
+    skos:prefLabel "visual works by form of image"@en.
