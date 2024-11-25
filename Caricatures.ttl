@@ -6,7 +6,7 @@
 cari:
     a skos:ConceptScheme;
     dct:description "My wonderful vocabulary."@en;
-    dct:title "Caricature Vocabulary"@en;
+    dct:title "Caricature Vocabulary"@en, "Karikaturen-Vokabular"@de ;
     vann:preferredNamespaceUri cari:;
     skos:hasTopConcept cari:8e3e2, cari:ab150 .
 cari:218d0
