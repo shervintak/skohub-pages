@@ -5,7 +5,7 @@
 w3i:
     a skos:ConceptScheme;
     dct:description "My wonderful vocabulary."@en;
-    dct:title "Caricature Vocabulary"@en;
+    dct:title "Caricature Vocabulary"@en, "Karikaturen-Vokabular"@de ;
     skos:hasTopConcept w3i:8e3e2, w3i:ab150 .
 w3i:218d0
     a skos:Concept;

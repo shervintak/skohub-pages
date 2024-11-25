@@ -4,7 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 colour: a skos:ConceptScheme ;
-    dct:title "Caricature Vocabulary"@en, "Karikaturen-Vokabular"@de ;
+    dct:title "Colors"@en, "Farben"@de ;
     dct:creator "Shervin Taheri"@de ;
     dct:created "2024-11-25"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
